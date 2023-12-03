@@ -37,15 +37,9 @@ function Home()
     {
         return (
         <Card
+            
             key = {movieData.Id}
-            title = {movieData.Title}
-            director = {movieData.Director}
-            runtime = {movieData.Runtime}
-            genre = {movieData.Genre}
-            year = {movieData.Year}
-            img = {movieData.Poster}
-            plot = {movieData.Plot}
-            rating = {movieData.imdbRating}
+            {...movieData}
             onClick = {() => onButtonClicked(movieData)}
         />
         );
@@ -56,17 +50,7 @@ function Home()
         {
             panelVisible ? 
             <InfoPanel 
-                title = {currentMovieData.Title}
-                year = {currentMovieData.Year}
-                runtime = {currentMovieData.Runtime}
-                director = {currentMovieData.Director}
-                writers = {currentMovieData.Writer}
-                released = {currentMovieData.Released}
-                actors = {currentMovieData.Actors}
-                genre = {currentMovieData.Genre}
-                img = {currentMovieData.Poster}
-                plot = {currentMovieData.Plot}
-                imdbRating = {currentMovieData.imdbRating}
+                {...currentMovieData}
                 onClick = {onOverlayVisibilityChanged}
             /> :
             null
