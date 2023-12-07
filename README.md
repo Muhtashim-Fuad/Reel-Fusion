@@ -1,3 +1,12 @@
+# Screenshots
+![Screenshot 2023-11-23 at 18-08-31 ReelFusion](https://github.com/Muhtashim-Fuad/Reel-Fusion/assets/93215661/fdecd78c-a683-44f8-9fd9-8ed397534dad)
+![Screenshot 2023-11-23 at 18-24-06 ReelFusion](https://github.com/Muhtashim-Fuad/Reel-Fusion/assets/93215661/4d12294f-66e5-4010-b764-93926a44589d)
+![Screenshot 2023-11-23 at 18-26-57 ReelFusion](https://github.com/Muhtashim-Fuad/Reel-Fusion/assets/93215661/db060416-34e9-4655-b330-82088b419cb2)
+![Screenshot 2023-11-23 at 18-25-03 ReelFusion](https://github.com/Muhtashim-Fuad/Reel-Fusion/assets/93215661/385fac8b-662b-4681-9bae-1ea1b12f6c16)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
